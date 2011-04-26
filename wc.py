@@ -8,7 +8,7 @@ from datetime import date, timedelta # to work with dates.
 import pickle # to save objects.
 
 # Configuration
-default_threshold = timedelta(days=1) # The default threshold for what is considered recent, as a timedelta.
+default_threshold = timedelta(days=2) # The default threshold for what is considered recent, as a timedelta.
 default_path = os.path.expanduser('~/Writing') # Default path to search.
 
 # Functions
@@ -146,4 +146,4 @@ Usage:
      wc.py init     Create the .wordcount data file;
      wc.py help     This screen.
 
-(C) Thomas Riggs 2011, Creative Commons Att-NC''')
+Written by Thomas Riggs 2011. This work is dedicated to the Public Domain.''')
