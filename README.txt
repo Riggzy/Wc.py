@@ -5,6 +5,8 @@ This script was written to provide an easy command-line interface for performing
 
 ## History
 
+26/04/2011: Fixed the copyright dedication in the help message - the script is indeed dedicated to the Public Domain. Also, the `default_threshold` is now 2 days, to avoid an issue where writing past midnight resulted in files being ignored when the script is run.
+
 25/04/2011: Added the `init` option to create the `.wordcount` file, so other people can finally use this script. D'oh. Also added a built-in `help` command that prints usage instructions, and fixed some of the phrasing in printed messages.
 
 ## Setup
